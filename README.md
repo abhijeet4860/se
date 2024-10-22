@@ -1,2 +1,1 @@
- this is se project where we have created a form using html and css
- 
+ In software engineering project, a form has been developed using HTML and CSS. The form allows users to input data in a structured and user-friendly interface, with styling elements designed for a clean and responsive experience. The project focuses on enhancing user interaction through front-end development principles
