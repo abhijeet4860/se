@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post" class="form-box">
+            <h1>Student Information Form</h1>
+            <div class="form-group">
+                <label for="student-name">Full Name:</label>
+                <input type="text" id="student-name" name="student-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="student-email">Email:</label>
+                <input type="email" id="student-email" name="student-email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="student-phone">Phone Number:</label>
+                <input type="tel" id="student-phone" name="student-phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="student-gender">Gender:</label>
+                <select id="student-gender" name="student-gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="student-dob">Date of Birth:</label>
+                <input type="date" id="student-dob" name="student-dob" required>
+            </div>
+            <div class="form-group">
+                <label for="student-address">Address:</label>
+                <textarea id="student-address" name="student-address" rows="4" placeholder="Enter your address" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
